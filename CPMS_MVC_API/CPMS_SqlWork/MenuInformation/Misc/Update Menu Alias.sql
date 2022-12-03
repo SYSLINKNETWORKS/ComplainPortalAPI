@@ -1,0 +1,6 @@
+--select upper(SUBSTRING(men_nam,6,len(men_nam))) from m_men where left(men_nam,5)='setup'
+--update m_men set men_ali= upper(SUBSTRING(men_nam,6,len(men_nam))) where left(men_nam,5)='setup'
+--select upper(SUBSTRING(men_nam,12,len(men_nam))) from m_men where left(men_nam,11)='transaction'
+--update m_men set men_ali= upper(SUBSTRING(men_nam,12,len(men_nam))) where left(men_nam,11)='transaction'
+--select upper(SUBSTRING(men_nam,7,len(men_nam))) from m_men where left(men_nam,6)='report'
+--update m_men set men_ali= upper(SUBSTRING(men_nam,7,len(men_nam))) where left(men_nam,6)='report'
